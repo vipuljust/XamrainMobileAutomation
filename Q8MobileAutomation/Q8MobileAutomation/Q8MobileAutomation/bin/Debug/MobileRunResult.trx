@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="6b6933f3-797c-46c3-bfb9-b82cf741b69b" name="vipul.agarwal@PS-WIN-LP-115 2019-08-24 22:47:50" runUser="THEPSI\vipul.agarwal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2019-08-24T22:47:50.1813405+05:30" queuing="2019-08-24T22:47:50.1813405+05:30" start="2019-08-24T22:41:12.1741289+05:30" finish="2019-08-24T22:49:00.4093441+05:30" />
+  <TestSettings name="default" id="dc64e18a-2e59-4c22-8f37-edf51fe8f2db">
+    <Deployment runDeploymentRoot="vipul.agarwal_PS-WIN-LP-115_2019-08-24_22_47_50" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="0bd1c4fa-730a-4005-8daf-3bfedaec00f4" testId="bf848e4f-f2bd-ce2a-fd78-a6d7d92dc36a" testName="Compartment_StockCheck_Test" computerName="PS-WIN-LP-115" duration="00:00:53.5650000" startTime="2019-08-24T22:48:06.0000000+05:30" endTime="2019-08-24T22:48:59.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0bd1c4fa-730a-4005-8daf-3bfedaec00f4">
+      <Output>
+        <StdOut>Exceptions while waiting for any: &#xD;
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---&gt; System.Net.WebException: Unable to connect to the remote server ---&gt; System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:54178&#xD;
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)&#xD;
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)&#xD;
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket&amp; socket, IPAddress&amp; address, ConnectSocketState state, IAsyncResult asyncResult, Exception&amp; exception)&#xD;
+   --- End of inner exception stack trace ---&#xD;
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext&amp; context)&#xD;
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)&#xD;
+   --- End of inner exception stack trace ---&#xD;
+   at Xamarin.UITest.Shared.Http.HttpClient.SendData(String endpoint, String method, HttpContent content, ExceptionPolicy exceptionPolicy, Nullable`1 timeOut)&#xD;
+   at Xamarin.UITest.Shared.Http.HttpClient.Post(String endpoint, String arguments, ExceptionPolicy exceptionPolicy, Nullable`1 timeOut)&#xD;
+   at Xamarin.UITest.Android.AndroidGestures.Query[T](ITokenContainer query, Object[] args, String methodName)&#xD;
+   at Xamarin.UITest.Android.AndroidGestures.Query(AppQuery query)&#xD;
+   at Xamarin.UITest.Android.AndroidGestures.&lt;&gt;c__DisplayClass9_0.&lt;QueryGestureWait&gt;b__0()&#xD;
+   at Xamarin.UITest.Shared.WaitForHelper.WaitForAnyOrDefault[T](Func`1 query, T[] defaultValue, Nullable`1 timeout, Nullable`1 retryFrequency, Nullable`1 postTimeout)&#xD;
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---&gt; System.Net.WebException: The underlying connection was closed: The connection was closed unexpectedly.&#xD;
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext&amp; context)&#xD;
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)&#xD;
+   --- End of inner exception stack trace ---&#xD;
+   at Xamarin.UITest.Shared.Http.HttpClient.SendData(String endpoint, String method, HttpContent content, ExceptionPolicy exceptionPolicy, Nullable`1 timeOut)&#xD;
+   at Xamarin.UITest.Shared.Http.HttpClient.Post(String endpoint, String arguments, ExceptionPolicy exceptionPolicy, Nullable`1 timeOut)&#xD;
+   at Xamarin.UITest.Android.AndroidGestures.Query[T](ITokenContainer query, Object[] args, String methodName)&#xD;
+   at Xamarin.UITest.Android.AndroidGestures.Query(AppQuery query)&#xD;
+   at Xamarin.UITest.Android.AndroidGestures.&lt;&gt;c__DisplayClass9_0.&lt;QueryGestureWait&gt;b__0()&#xD;
+   at Xamarin.UITest.Shared.WaitForHelper.WaitForAnyOrDefault[T](Func`1 query, T[] defaultValue, Nullable`1 timeout, Nullable`1 retryFrequency, Nullable`1 postTimeout)&#xD;
+System.Exception: Query for Marked("topRightBtn") failed with outcome: ERROR&#xD;
+Status: 200&#xD;
+Contents:&#xD;
+{"reason":null,"detail":"java.util.EmptyStackException\n\tat java.util.Stack.peek(Stack.java:102)\n\tat sh.calaba.instrumentationbackend.CalabashInstrumentation.getLastActivity(CalabashInstrumentation.java:38)\n\tat sh.calaba.instrumentationbackend.entrypoint.ApplicationUnderTestInstrumentation.getCurrentActivity(ApplicationUnderTestInstrumentation.java:31)\n\tat sh.calaba.instrumentationbackend.automation.CalabashAutomationEmbedded.getCurrentActivity(CalabashAutomationEmbedded.java:22)\n\tat sh.calaba.instrumentationbackend.InstrumentationBackend.getCurrentActivity(InstrumentationBackend.java:47)\n\tat sh.calaba.instrumentationbackend.query.ast.UIQueryUtils.getRootViews(UIQueryUtils.java:243)\n\tat sh.calaba.instrumentationbackend.automation.CalabashAutomationEmbedded.getRootViews(CalabashAutomationEmbedded.java:32)\n\tat sh.calaba.instrumentationbackend.automation.CalabashAutomationEmbedded.getRootViews(CalabashAutomationEmbedded.java:13)\n\tat sh.calaba.instrumentationbackend.InstrumentationBackend.getRootViews(InstrumentationBackend.java:51)\n\tat sh.calaba.instrumentationbackend.query.Query.rootViews(Query.java:178)\n\tat sh.calaba.instrumentationbackend.query.Query.executeQuery(Query.java:57)\n\tat sh.calaba.instrumentationbackend.actions.HttpServer.serve(HttpServer.java:518)\n\tat sh.calaba.instrumentationbackend.actions.NanoHTTPD$HTTPSession.run(NanoHTTPD.java:487)\n\tat java.lang.Thread.run(Thread.java:764)\n","outcome":"ERROR"}&#xD;
+   at Xamarin.UITest.Android.AndroidGestures.Query[T](ITokenContainer query, Object[] args, String methodName)&#xD;
+   at Xamarin.UITest.Android.AndroidGestures.Query(AppQuery query)&#xD;
+   at Xamarin.UITest.Android.AndroidGestures.&lt;&gt;c__DisplayClass9_0.&lt;QueryGestureWait&gt;b__0()&#xD;
+   at Xamarin.UITest.Shared.WaitForHelper.WaitForAnyOrDefault[T](Func`1 query, T[] defaultValue, Nullable`1 timeout, Nullable`1 retryFrequency, Nullable`1 postTimeout)&#xD;
+Error while performing Tap(Marked("topRightBtn"))&#xD;
+Exception: System.Exception: Unable to find element. Query for Marked("topRightBtn") gave no results.&#xD;
+   at Xamarin.UITest.SharedApp.FirstWithLog[T](T[] results, ITokenContainer tokenContainer)&#xD;
+   at Xamarin.UITest.Android.AndroidApp.&lt;&gt;c__DisplayClass25_0.&lt;Tap&gt;b__0()&#xD;
+   at Xamarin.UITest.Utils.ErrorReporting.With(Action func, Object[] args, String memberName)</StdOut>
+        <ErrorInfo>
+          <Message>System.Exception : Exception ::: System.Exception: Error while performing Tap(Marked("topRightBtn")) ---&gt; System.Exception: Unable to find element. Query for Marked("topRightBtn") gave no results.&#xD;
+   at Xamarin.UITest.SharedApp.FirstWithLog[T](T[] results, ITokenContainer tokenContainer)&#xD;
+   at Xamarin.UITest.Android.AndroidApp.&lt;&gt;c__DisplayClass25_0.&lt;Tap&gt;b__0()&#xD;
+   at Xamarin.UITest.Utils.ErrorReporting.With(Action func, Object[] args, String memberName)&#xD;
+   --- End of inner exception stack trace ---&#xD;
+   at Xamarin.UITest.Utils.ErrorReporting.With(Action func, Object[] args, String memberName)&#xD;
+   at Xamarin.UITest.Android.AndroidApp.Tap(Func`2 query)&#xD;
+   at Q8MobileAutomation.Main.Utils.Helper.ClickElement(String Element) in E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\Main\Utils\Helper.cs:line 113</Message>
+          <StackTrace>   at Q8MobileAutomation.Main.Utils.Helper.ClickElement(String Element) in E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\Main\Utils\Helper.cs:line 117&#xD;
+   at Q8MobileAutomation.Main.PageObjects.ComptTempPage.ClickOtherCompartmentButton() in E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\Main\PageObjects\ComptTempPage.cs:line 23&#xD;
+   at Q8MobileAutomation.Test.RunAutomation.&lt;Compartment_StockCheck_Test&gt;b__40_0() in E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\Test\RunAutomation.cs:line 154&#xD;
+   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate) in D:\a\1\s\src\NUnitFramework\framework\Assert.cs:line 323&#xD;
+   at Q8MobileAutomation.Test.RunAutomation.Compartment_StockCheck_Test() in E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\Test\RunAutomation.cs:line 150</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2c72636d-6073-4b89-ba3f-bbcb479c9f62" testId="2bda2261-5f8f-8b66-4474-499156559590" testName="ApplicationLogin_Test" computerName="PS-WIN-LP-115" duration="00:00:16.2370000" startTime="2019-08-24T22:47:50.0000000+05:30" endTime="2019-08-24T22:48:06.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c72636d-6073-4b89-ba3f-bbcb479c9f62">
+      <Output>
+        <StdOut>Exceptions while waiting for any: &#xD;
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---&gt; System.Net.WebException: Unable to connect to the remote server ---&gt; System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:54178&#xD;
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)&#xD;
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)&#xD;
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket&amp; socket, IPAddress&amp; address, ConnectSocketState state, IAsyncResult asyncResult, Exception&amp; exception)&#xD;
+   --- End of inner exception stack trace ---&#xD;
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext&amp; context)&#xD;
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)&#xD;
+   --- End of inner exception stack trace ---&#xD;
+   at Xamarin.UITest.Shared.Http.HttpClient.SendData(String endpoint, String method, HttpContent content, ExceptionPolicy exceptionPolicy, Nullable`1 timeOut)&#xD;
+   at Xamarin.UITest.Shared.Http.HttpClient.Post(String endpoint, String arguments, ExceptionPolicy exceptionPolicy, Nullable`1 timeOut)&#xD;
+   at Xamarin.UITest.Android.AndroidGestures.Query[T](ITokenContainer query, Object[] args, String methodName)&#xD;
+   at Xamarin.UITest.Android.AndroidGestures.Query(AppQuery query)&#xD;
+   at Xamarin.UITest.Android.AndroidGestures.&lt;&gt;c__DisplayClass9_0.&lt;QueryGestureWait&gt;b__0()&#xD;
+   at Xamarin.UITest.Shared.WaitForHelper.WaitForAnyOrDefault[T](Func`1 query, T[] defaultValue, Nullable`1 timeout, Nullable`1 retryFrequency, Nullable`1 postTimeout)&#xD;
+Error while performing Tap(Marked("btn_logon"))&#xD;
+Exception: System.Exception: Unable to find element. Query for Marked("btn_logon") gave no results.&#xD;
+   at Xamarin.UITest.SharedApp.FirstWithLog[T](T[] results, ITokenContainer tokenContainer)&#xD;
+   at Xamarin.UITest.Android.AndroidApp.&lt;&gt;c__DisplayClass25_0.&lt;Tap&gt;b__0()&#xD;
+   at Xamarin.UITest.Utils.ErrorReporting.With(Action func, Object[] args, String memberName)</StdOut>
+        <ErrorInfo>
+          <Message>System.Exception : Exception ::: System.Exception: Error while performing Tap(Marked("btn_logon")) ---&gt; System.Exception: Unable to find element. Query for Marked("btn_logon") gave no results.&#xD;
+   at Xamarin.UITest.SharedApp.FirstWithLog[T](T[] results, ITokenContainer tokenContainer)&#xD;
+   at Xamarin.UITest.Android.AndroidApp.&lt;&gt;c__DisplayClass25_0.&lt;Tap&gt;b__0()&#xD;
+   at Xamarin.UITest.Utils.ErrorReporting.With(Action func, Object[] args, String memberName)&#xD;
+   --- End of inner exception stack trace ---&#xD;
+   at Xamarin.UITest.Utils.ErrorReporting.With(Action func, Object[] args, String memberName)&#xD;
+   at Xamarin.UITest.Android.AndroidApp.Tap(Func`2 query)&#xD;
+   at Q8MobileAutomation.Main.Utils.Helper.ClickElement(String Element) in E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\Main\Utils\Helper.cs:line 113</Message>
+          <StackTrace>   at Q8MobileAutomation.Main.Utils.Helper.ClickElement(String Element) in E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\Main\Utils\Helper.cs:line 117&#xD;
+   at Q8MobileAutomation.Main.PageObjects.LoginPage.ClickLogon() in E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\Main\PageObjects\LoginPage.cs:line 22&#xD;
+   at Q8MobileAutomation.Test.RunAutomation.ApplicationLogin_Test() in E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\Test\RunAutomation.cs:line 137</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="70fd30bf-4a17-46a4-bb93-3745aaefd69d" testId="23754c52-87c2-e62e-beb3-bb3e1a930646" testName="OpenApplication_Test" computerName="PS-WIN-LP-115" duration="00:06:17.2300000" startTime="2019-08-24T22:41:32.0000000+05:30" endTime="2019-08-24T22:47:50.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70fd30bf-4a17-46a4-bb93-3745aaefd69d">
+      <Output>
+        <StdOut>Opened the application&#xD;
+Error while performing Query(Marked("toolbarTitleTV"))&#xD;
+Exception: System.Net.Http.HttpRequestException: An error occurred while sending the request. ---&gt; System.Net.WebException: Unable to connect to the remote server ---&gt; System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:54178&#xD;
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)&#xD;
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)&#xD;
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket&amp; socket, IPAddress&amp; address, ConnectSocketState state, IAsyncResult asyncResult, Exception&amp; exception)&#xD;
+   --- End of inner exception stack trace ---&#xD;
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext&amp; context)&#xD;
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)&#xD;
+   --- End of inner exception stack trace ---&#xD;
+   at Xamarin.UITest.Shared.Http.HttpClient.SendData(String endpoint, String method, HttpContent content, ExceptionPolicy exceptionPolicy, Nullable`1 timeOut)&#xD;
+   at Xamarin.UITest.Shared.Http.HttpClient.Post(String endpoint, String arguments, ExceptionPolicy exceptionPolicy, Nullable`1 timeOut)&#xD;
+   at Xamarin.UITest.Android.AndroidGestures.Query[T](ITokenContainer query, Object[] args, String methodName)&#xD;
+   at Xamarin.UITest.Android.AndroidGestures.Query(AppQuery query)&#xD;
+   at Xamarin.UITest.Android.AndroidApp.&lt;&gt;c__DisplayClass12_0.&lt;Query&gt;b__0()&#xD;
+   at Xamarin.UITest.Utils.ErrorReporting.With[T](Func`1 func, Object[] args, String memberName)</StdOut>
+        <ErrorInfo>
+          <Message>System.Exception : Exception ::: System.Exception: Error while performing Query(Marked("toolbarTitleTV")) ---&gt; System.Net.Http.HttpRequestException: An error occurred while sending the request. ---&gt; System.Net.WebException: Unable to connect to the remote server ---&gt; System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:54178&#xD;
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)&#xD;
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)&#xD;
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket&amp; socket, IPAddress&amp; address, ConnectSocketState state, IAsyncResult asyncResult, Exception&amp; exception)&#xD;
+   --- End of inner exception stack trace ---&#xD;
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext&amp; context)&#xD;
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)&#xD;
+   --- End of inner exception stack trace ---&#xD;
+   at Xamarin.UITest.Shared.Http.HttpClient.SendData(String endpoint, String method, HttpContent content, ExceptionPolicy exceptionPolicy, Nullable`1 timeOut)&#xD;
+   at Xamarin.UITest.Shared.Http.HttpClient.Post(String endpoint, String arguments, ExceptionPolicy exceptionPolicy, Nullable`1 timeOut)&#xD;
+   at Xamarin.UITest.Android.AndroidGestures.Query[T](ITokenContainer query, Object[] args, String methodName)&#xD;
+   at Xamarin.UITest.Android.AndroidGestures.Query(AppQuery query)&#xD;
+   at Xamarin.UITest.Android.AndroidApp.&lt;&gt;c__DisplayClass12_0.&lt;Query&gt;b__0()&#xD;
+   at Xamarin.UITest.Utils.ErrorReporting.With[T](Func`1 func, Object[] args, String memberName)&#xD;
+   --- End of inner exception stack trace ---&#xD;
+   at Xamarin.UITest.Utils.ErrorReporting.With[T](Func`1 func, Object[] args, String memberName)&#xD;
+   at Xamarin.UITest.Android.AndroidApp.Query(Func`2 query)&#xD;
+   at Q8MobileAutomation.Main.Utils.Helper.GetText(String ElementId) in E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\Main\Utils\Helper.cs:line 152</Message>
+          <StackTrace>   at Q8MobileAutomation.Main.Utils.Helper.GetText(String ElementId) in E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\Main\Utils\Helper.cs:line 158&#xD;
+   at Q8MobileAutomation.Main.PageObjects.MainPage.VerifyTitleName() in E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\Main\PageObjects\MainPage.cs:line 43&#xD;
+   at Q8MobileAutomation.Test.RunAutomation.OpenApplication_Test() in E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\Test\RunAutomation.cs:line 125</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ApplicationLogin_Test" storage="e:\year\2019\july\q8mobileautomation\q8mobileautomation\q8mobileautomation\bin\debug\q8mobileautomation.dll" id="2bda2261-5f8f-8b66-4474-499156559590">
+      <Execution id="2c72636d-6073-4b89-ba3f-bbcb479c9f62" />
+      <TestMethod codeBase="E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\bin\Debug\Q8MobileAutomation.dll" adapterTypeName="executor://nunit3testexecutor/" className="Q8MobileAutomation.Test.RunAutomation(Android)" name="ApplicationLogin_Test" />
+    </UnitTest>
+    <UnitTest name="OpenApplication_Test" storage="e:\year\2019\july\q8mobileautomation\q8mobileautomation\q8mobileautomation\bin\debug\q8mobileautomation.dll" id="23754c52-87c2-e62e-beb3-bb3e1a930646">
+      <Execution id="70fd30bf-4a17-46a4-bb93-3745aaefd69d" />
+      <TestMethod codeBase="E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\bin\Debug\Q8MobileAutomation.dll" adapterTypeName="executor://nunit3testexecutor/" className="Q8MobileAutomation.Test.RunAutomation(Android)" name="OpenApplication_Test" />
+    </UnitTest>
+    <UnitTest name="Compartment_StockCheck_Test" storage="e:\year\2019\july\q8mobileautomation\q8mobileautomation\q8mobileautomation\bin\debug\q8mobileautomation.dll" id="bf848e4f-f2bd-ce2a-fd78-a6d7d92dc36a">
+      <Execution id="0bd1c4fa-730a-4005-8daf-3bfedaec00f4" />
+      <TestMethod codeBase="E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\bin\Debug\Q8MobileAutomation.dll" adapterTypeName="executor://nunit3testexecutor/" className="Q8MobileAutomation.Test.RunAutomation(Android)" name="Compartment_StockCheck_Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="bf848e4f-f2bd-ce2a-fd78-a6d7d92dc36a" executionId="0bd1c4fa-730a-4005-8daf-3bfedaec00f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2bda2261-5f8f-8b66-4474-499156559590" executionId="2c72636d-6073-4b89-ba3f-bbcb479c9f62" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23754c52-87c2-e62e-beb3-bb3e1a930646" executionId="70fd30bf-4a17-46a4-bb93-3745aaefd69d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="0" failed="3" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.13.0.0: Test execution started&#xD;
+Running all tests in E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\bin\Debug\Q8MobileAutomation.dll&#xD;
+   NUnit3TestExecutor converted 3 of 3 NUnit test cases&#xD;
+NUnit Adapter 3.13.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

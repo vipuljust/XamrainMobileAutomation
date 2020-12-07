@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="aeb0add4-ae68-4e87-a85c-286642feec4d" name="vipul.agarwal@PS-WIN-LP-115 2020-03-22 22:17:18" runUser="THEPSI\vipul.agarwal" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2020-03-22T22:17:18.1429405+05:30" queuing="2020-03-22T22:17:18.1429405+05:30" start="2020-03-22T22:16:46.2871619+05:30" finish="2020-03-22T22:25:59.8976892+05:30" />
+  <TestSettings name="default" id="f9833f26-3ae9-4ffc-9dbe-db6ac7e659f6">
+    <Deployment runDeploymentRoot="vipul.agarwal_PS-WIN-LP-115_2020-03-22_22_17_18" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="99521251-7cd0-4008-bacb-56fe695870d2" testId="bf848e4f-f2bd-ce2a-fd78-a6d7d92dc36a" testName="Compartment_StockCheck_Test" computerName="PS-WIN-LP-115" duration="00:03:51.3880000" startTime="2020-03-22T22:18:06.0000000+05:30" endTime="2020-03-22T22:21:58.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99521251-7cd0-4008-bacb-56fe695870d2">
+      <Output>
+        <StdOut>Query for Marked("screenIdTitleTV").Invoke("getText") gave 1 results.&#xD;
+Query for Marked("screenIdTitleTV").Invoke("getText") gave 1 results.&#xD;
+Query for Marked("screenIdTitleTV").Invoke("getText") gave 1 results.&#xD;
+Query for Marked("screenIdTitleTV").Invoke("getText") gave 1 results.&#xD;
+Query for Marked("screenIdTitleTV").Invoke("getText") gave 1 results.&#xD;
+Query for Marked("screenIdTitleTV").Invoke("getText") gave 1 results.&#xD;
+Using element matching Marked("topRightBtn").&#xD;
+Tapping coordinates [ 1725, 350 ].&#xD;
+Clicked on other compartment button.&#xD;
+Using element matching Marked("numberThreeKeyboardBtn").&#xD;
+Tapping coordinates [ 1227, 794 ].&#xD;
+Entered number of compartments : '3'.&#xD;
+Using element matching Marked("oneRightBtn").&#xD;
+Tapping coordinates [ 1691, 686 ].&#xD;
+Clicked confirm button.&#xD;
+Using element matching Marked("1").&#xD;
+Tapping coordinates [ 617, 263 ].&#xD;
+Using element matching Marked("numberFiveKeyboardBtn").&#xD;
+Tapping coordinates [ 766, 636 ].&#xD;
+Using element matching Marked("numberFiveKeyboardBtn").&#xD;
+Tapping coordinates [ 766, 636 ].&#xD;
+Using element matching Marked("numberZeroKeyboardBtn").&#xD;
+Tapping coordinates [ 766, 1023 ].&#xD;
+Using element matching Marked("numberZeroKeyboardBtn").&#xD;
+Tapping coordinates [ 766, 1023 ].&#xD;
+Entered compartment capacity as : '5500'.&#xD;
+Using element matching Marked("oneRightBtn").&#xD;
+Tapping coordinates [ 1724, 734 ].&#xD;
+Clicked confirm button.&#xD;
+Using element matching Marked("2").&#xD;
+Tapping coordinates [ 617, 379 ].&#xD;
+Using element matching Marked("numberSixKeyboardBtn").&#xD;
+Tapping coordinates [ 1282, 636 ].&#xD;
+Using element matching Marked("numberZeroKeyboardBtn").&#xD;
+Tapping coordinates [ 766, 1023 ].&#xD;
+Using element matching Marked("numberZeroKeyboardBtn").&#xD;
+Tapping coordinates [ 766, 1023 ].&#xD;
+Using element matching Marked("numberZeroKeyboardBtn").&#xD;
+Tapping coordinates [ 766, 1023 ].&#xD;
+Entered compartment capacity as : '6000'.&#xD;
+Using element matching Marked("oneRightBtn").&#xD;
+Tapping coordinates [ 1724, 734 ].&#xD;
+Clicked confirm button.&#xD;
+Using element matching Marked("3").&#xD;
+Tapping coordinates [ 617, 495 ].&#xD;
+Using element matching Marked("numberSixKeyboardBtn").&#xD;
+Tapping coordinates [ 1282, 636 ].&#xD;
+Using element matching Marked("numberFiveKeyboardBtn").&#xD;
+Tapping coordinates [ 766, 636 ].&#xD;
+Using element matching Marked("numberZeroKeyboardBtn").&#xD;
+Tapping coordinates [ 766, 1023 ].&#xD;
+Using element matching Marked("numberZeroKeyboardBtn").&#xD;
+Tapping coordinates [ 766, 1023 ].&#xD;
+Entered compartment capacity as : '6500'.&#xD;
+Using element matching Marked("oneRightBtn").&#xD;
+Tapping coordinates [ 1724, 734 ].&#xD;
+Clicked confirm button.&#xD;
+Using element matching Marked("oneRightBtn").&#xD;
+Tapping coordinates [ 1725, 603 ].&#xD;
+Clicked on confirm button.&#xD;
+Query for Id("txt_capacity") gave 4 results.&#xD;
+Flashing query for Text("5500") gave 1 results.&#xD;
+Capacity as  '5000' verified for compartment : 0&#xD;
+Query for Id("txt_capacity") gave 4 results.&#xD;
+Flashing query for Text("6000") gave 1 results.&#xD;
+Capacity as  '5000' verified for compartment : 1&#xD;
+Query for Id("txt_capacity") gave 4 results.&#xD;
+Flashing query for Text("6500") gave 1 results.&#xD;
+Capacity as  '5000' verified for compartment : 2&#xD;
+Using element matching Marked("bottomRightBtn").&#xD;
+Tapping coordinates [ 1734, 855 ].&#xD;
+Clicked on confirm button.&#xD;
+Waiting for no element matching Marked("progress").&#xD;
+Waiting for element matching Marked("bottomLeftBtn").&#xD;
+Using element matching Marked("bottomLeftBtn").&#xD;
+Tapping coordinates [ 195, 855 ].&#xD;
+Clicked on edit stock button.&#xD;
+Waiting for element matching Marked("rightBtn").&#xD;
+Using element matching Marked("rightBtn").&#xD;
+Tapping coordinates [ 1313, 853 ].&#xD;
+Clicked on Yes button.&#xD;
+Using element matching Marked("1").&#xD;
+Tapping coordinates [ 501, 263 ].&#xD;
+Selected tank : 1 to edit.&#xD;
+Using element matching Marked("numberThreeKeyboardBtn").&#xD;
+Tapping coordinates [ 1282, 829 ].&#xD;
+Using element matching Marked("numberFiveKeyboardBtn").&#xD;
+Tapping coordinates [ 766, 636 ].&#xD;
+Using element matching Marked("numberZeroKeyboardBtn").&#xD;
+Tapping coordinates [ 766, 1023 ].&#xD;
+Using element matching Marked("numberZeroKeyboardBtn").&#xD;
+Tapping coordinates [ 766, 1023 ].&#xD;
+Entered value : '3500'.&#xD;
+Using element matching Marked("productTV").&#xD;
+Tapping coordinates [ 959, 260 ].&#xD;
+Clicked on Product label.&#xD;
+Scrolling down to Text("DIESEL")&#xD;
+Using element matching Marked("DIESEL").&#xD;
+Tapping coordinates [ 433, 734 ].&#xD;
+Select the product. DIESEL&#xD;
+Using element matching Marked("oneRightBtn").&#xD;
+Tapping coordinates [ 1724, 734 ].&#xD;
+Clicked on confirm button.&#xD;
+Using element matching Marked("2").&#xD;
+Tapping coordinates [ 501, 379 ].&#xD;
+Selected tank : 2 to edit.&#xD;
+Using element matching Marked("numberThreeKeyboardBtn").&#xD;
+Tapping coordinates [ 1282, 829 ].&#xD;
+Using element matching Marked("numberZeroKeyboardBtn").&#xD;
+Tapping coordinates [ 766, 1023 ].&#xD;
+Using element matching Marked("numberZeroKeyboardBtn").&#xD;
+Tapping coordinates [ 766, 1023 ].&#xD;
+Using element matching Marked("numberZeroKeyboardBtn").&#xD;
+Tapping coordinates [ 766, 1023 ].&#xD;
+Entered value : '3000'.&#xD;
+Using element matching Marked("productTV").&#xD;
+Tapping coordinates [ 959, 260 ].&#xD;
+Clicked on Product label.&#xD;
+Scrolling down to Text("SUPER 98")&#xD;
+Using element matching Marked("SUPER 98").&#xD;
+Tapping coordinates [ 464, 988 ].&#xD;
+Select the product. SUPER 98&#xD;
+Using element matching Marked("oneRightBtn").&#xD;
+Tapping coordinates [ 1724, 734 ].&#xD;
+Clicked on confirm button.&#xD;
+Using element matching Marked("3").&#xD;
+Tapping coordinates [ 501, 495 ].&#xD;
+Selected tank : 3 to edit.&#xD;
+Using element matching Marked("numberTwoKeyboardBtn").&#xD;
+Tapping coordinates [ 766, 829 ].&#xD;
+Using element matching Marked("numberFiveKeyboardBtn").&#xD;
+Tapping coordinates [ 766, 636 ].&#xD;
+Using element matching Marked("numberZeroKeyboardBtn").&#xD;
+Tapping coordinates [ 766, 1023 ].&#xD;
+Using element matching Marked("numberZeroKeyboardBtn").&#xD;
+Tapping coordinates [ 766, 1023 ].&#xD;
+Entered value : '2500'.&#xD;
+Using element matching Marked("productTV").&#xD;
+Tapping coordinates [ 959, 260 ].&#xD;
+Clicked on Product label.&#xD;
+Scrolling down to Text("ADBLUE")&#xD;
+Using element matching Marked("ADBLUE").&#xD;
+Tapping coordinates [ 445, 988 ].&#xD;
+Select the product. ADBLUE&#xD;
+Using element matching Marked("oneRightBtn").&#xD;
+Tapping coordinates [ 1724, 734 ].&#xD;
+Clicked on confirm button.&#xD;
+Using element matching Marked("oneRightBtn").&#xD;
+Tapping coordinates [ 1725, 603 ].&#xD;
+Clicked on confirm button.&#xD;
+Query for Marked("screenIdTitleTV").Invoke("getText") gave 1 results.&#xD;
+Query for Marked("screenIdTitleTV").Invoke("getText") gave 1 results.&#xD;
+Waiting for element matching Marked("txt_adr_message").&#xD;
+Please wait ADR uploading.&#xD;
+Query for Marked("screenIdTitleTV").Invoke("getText") gave 1 results.&#xD;
+Query for Marked("screenIdTitleTV").Invoke("getText") gave 1 results.&#xD;
+Query for Marked("screenIdTitleTV").Invoke("getText") gave 1 results.&#xD;
+Query for Marked("screenIdTitleTV").Invoke("getText") gave 1 results.&#xD;
+Query for Marked("screenIdTitleTV").Invoke("getText") gave 1 results.&#xD;
+Query for Marked("screenIdTitleTV").Invoke("getText") gave 1 results.&#xD;
+Waiting for element&#xD;
+Query for Marked("screenIdTitleTV").Invoke("getText") gave 1 results.&#xD;
+Query for Marked("screenIdTitleTV").Invoke("getText") gave 1 results.&#xD;
+Query for Marked("screenIdTitleTV").Invoke("getText") gave 1 results.&#xD;
+Query for Marked("screenIdTitleTV").Invoke("getText") gave 1 results.&#xD;
+Query for Marked("screenIdTitleTV").Invoke("getText") gave 1 results.&#xD;
+Query for Marked("screenIdTitleTV").Invoke("getText") gave 1 results.&#xD;
+Waiting for element&#xD;
+Query for Id("stockValText") gave 3 results.&#xD;
+Flashing query for Text("3500") gave 1 results.&#xD;
+Query for Id("stockValText") gave 2 results.&#xD;
+Flashing query for Text("3000") gave 1 results.&#xD;
+Query for Id("stockValText") gave 3 results.&#xD;
+Flashing query for Text("2500") gave 1 results.&#xD;
+Waiting for element matching Marked("oneRightBtn").&#xD;
+Using element matching Marked("oneRightBtn").&#xD;
+Tapping coordinates [ 1725, 603 ].&#xD;
+Clicked on confirm stock button.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0480e380-8acf-4647-a10f-46fbdc9fb44b" testId="b0e87485-6d18-64bb-38f4-481810a6fe20" testName="DriverLogin_Test" computerName="PS-WIN-LP-115" duration="00:00:46.6700000" startTime="2020-03-22T22:17:20.0000000+05:30" endTime="2020-03-22T22:18:06.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0480e380-8acf-4647-a10f-46fbdc9fb44b">
+      <Output>
+        <StdOut>Opened the Enter Your Driver Login Screen&#xD;
+Using element matching Marked("numberFourKeyboardBtn").&#xD;
+Tapping coordinates [ 240, 576 ].&#xD;
+Using element matching Marked("numberSevenKeyboardBtn").&#xD;
+Tapping coordinates [ 240, 358 ].&#xD;
+Using element matching Marked("numberZeroKeyboardBtn").&#xD;
+Tapping coordinates [ 733, 1013 ].&#xD;
+Using element matching Marked("numberNineKeyboardBtn").&#xD;
+Tapping coordinates [ 1227, 358 ].&#xD;
+Using element matching Marked("numberOneKeyboardBtn").&#xD;
+Tapping coordinates [ 240, 794 ].&#xD;
+Entered driver PIN : '47091'.&#xD;
+Using element matching Marked("oneRightBtn").&#xD;
+Tapping coordinates [ 1691, 686 ].&#xD;
+Clicked confirm button.&#xD;
+Select truck Number : '403'.&#xD;
+Scrolling down to Text("403")&#xD;
+Using element matching Marked("403").&#xD;
+Tapping coordinates [ 397, 1034 ].&#xD;
+Waiting for element matching Marked("screenIdTitleTV").&#xD;
+Query for Marked("screenIdTitleTV") gave 1 results.&#xD;
+Select the Default Deliver Country list: &#xD;
+Using element matching Marked("txtDefaultDeliverCountryVal").&#xD;
+Tapping coordinates [ 665, 360 ].&#xD;
+Select the Default Deliver Country : 'Belgium'.&#xD;
+Scrolling down to Text("Belgium")&#xD;
+Using element matching Marked("Belgium").&#xD;
+Tapping coordinates [ 496, 605 ].&#xD;
+Tapped the Licence Plate text box: '&#xD;
+Using element matching Marked("txtLicencePlateVal").&#xD;
+Tapping coordinates [ 665, 582 ].&#xD;
+Entered Licence Plate : 'LP'.&#xD;
+Using element matching Marked("charaterLKeyboardBtn").&#xD;
+Tapping coordinates [ 1702, 665 ].&#xD;
+Using element matching Marked("charaterPKeyboardBtn").&#xD;
+Tapping coordinates [ 1805, 495 ].&#xD;
+Entered License Plate : 'LP'.&#xD;
+Using element matching Marked("okayKeyboardBtn").&#xD;
+Tapping coordinates [ 1671, 1007 ].&#xD;
+Clicked confirm button.&#xD;
+Using element matching Marked("txtTrailerIdVal").&#xD;
+Tapping coordinates [ 1253, 582 ].&#xD;
+Tapped the trailer ID text box: '&#xD;
+Using element matching Marked("charaterTKeyboardBtn").&#xD;
+Tapping coordinates [ 864, 495 ].&#xD;
+Using element matching Marked("charaterDKeyboardBtn").&#xD;
+Tapping coordinates [ 574, 665 ].&#xD;
+Entered trailer ID : 'TD'.&#xD;
+Using element matching Marked("okayKeyboardBtn").&#xD;
+Tapping coordinates [ 1671, 1007 ].&#xD;
+Clicked confirm button.&#xD;
+Query for Marked("txtTruckNameVal") gave 1 results.&#xD;
+Query for Marked("txtDriverIdVal") gave 1 results.&#xD;
+Using element matching Marked("oneRightBtn").&#xD;
+Tapping coordinates [ 1725, 603 ].&#xD;
+Clicked on confirm name button.&#xD;
+Waiting for no element matching Marked("messageOneTV").</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d7614351-001f-462a-a563-1171a38b1b8d" testId="23754c52-87c2-e62e-beb3-bb3e1a930646" testName="OpenApplication_Test" computerName="PS-WIN-LP-115" duration="00:00:10.2290000" startTime="2020-03-22T22:17:07.0000000+05:30" endTime="2020-03-22T22:17:18.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7614351-001f-462a-a563-1171a38b1b8d">
+      <Output>
+        <StdOut>Opened the application&#xD;
+Waiting for no element matching Marked("progress").&#xD;
+Waiting for element matching Marked("topRightBtn").&#xD;
+Query for Marked("topRightBtn") gave 1 results.&#xD;
+Query for Marked("middleRightBtn") gave 1 results.&#xD;
+Query for Marked("bottomRightBtn") gave 1 results.&#xD;
+Waiting for element matching Marked("toolbarTitleTV").&#xD;
+Query for Marked("toolbarTitleTV") gave 1 results.&#xD;
+Using element matching Marked("bottomRightBtn").&#xD;
+Tapping coordinates [ 1676, 939 ].&#xD;
+Selected language : 'english'.&#xD;
+Waiting for no element matching Marked("messageOneTV").</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b0caeb08-11da-44db-bef2-3827c478a61a" testId="2bda2261-5f8f-8b66-4474-499156559590" testName="ApplicationLogin_Test" computerName="PS-WIN-LP-115" duration="00:00:02.1090000" startTime="2020-03-22T22:17:18.0000000+05:30" endTime="2020-03-22T22:17:20.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0caeb08-11da-44db-bef2-3827c478a61a">
+      <Output>
+        <StdOut>Opened the Shift Finished Screen&#xD;
+Waiting for element matching Marked("screenIdTitleTV").&#xD;
+Query for Marked("screenIdTitleTV") gave 1 results.&#xD;
+Query for Marked("screenIdTitleTV").Invoke("getText") gave 1 results.&#xD;
+Using element matching Marked("btn_logon").&#xD;
+Tapping coordinates [ 1678, 603 ].&#xD;
+Clicked on log on button.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0907ce65-89f6-4880-a908-a5f2f9b34ace" testId="b858cb95-d41e-752c-a106-dfd8e07f7185" testName="ReplTest" computerName="PS-WIN-LP-115" duration="00:03:30.5570000" startTime="2020-03-22T22:22:28.0000000+05:30" endTime="2020-03-22T22:25:59.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0907ce65-89f6-4880-a908-a5f2f9b34ace" />
+    <UnitTestResult executionId="213ae1f5-b22a-46bd-8460-3ccfb4584226" testId="3c295f1a-1cc1-8cb1-b895-bf7d47d675cc" testName="CreateUnplannedShift_Test" computerName="PS-WIN-LP-115" duration="00:00:30.4580000" startTime="2020-03-22T22:21:58.0000000+05:30" endTime="2020-03-22T22:22:28.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="213ae1f5-b22a-46bd-8460-3ccfb4584226">
+      <Output>
+        <StdOut>Waiting for no element matching Marked("progress").&#xD;
+Query for Marked("screenIdTitleTV").Invoke("getText") gave 1 results.&#xD;
+Query for Marked("shiftNumberLabel") gave 1 results.&#xD;
+Using element matching Marked("shiftNumberLabel").&#xD;
+Tapping coordinates [ 471, 244 ].&#xD;
+Using element matching Marked("bottomLeftBtn").&#xD;
+Tapping coordinates [ 195, 939 ].&#xD;
+Clicked on delete button.&#xD;
+Using element matching Marked("leftBtn").&#xD;
+Tapping coordinates [ 605, 853 ].&#xD;
+Clicked on Yes button for Confirm Erase Shift.&#xD;
+Query for Marked("shiftNumberLabel") gave 1 results.&#xD;
+Using element matching Marked("topLeftBtn").&#xD;
+Tapping coordinates [ 195, 266 ].&#xD;
+Clicked the Unplanned Shift button &#xD;
+Using element matching Marked("numberZeroKeyboardBtn").&#xD;
+Tapping coordinates [ 1805, 346 ].&#xD;
+Using element matching Marked("numberZeroKeyboardBtn").&#xD;
+Tapping coordinates [ 1805, 346 ].&#xD;
+Using element matching Marked("charaterBKeyboardBtn").&#xD;
+Tapping coordinates [ 870, 842 ].&#xD;
+Using element matching Marked("charaterEKeyboardBtn").&#xD;
+Tapping coordinates [ 488, 511 ].&#xD;
+Using element matching Marked("numberOneKeyboardBtn").&#xD;
+Tapping coordinates [ 113, 346 ].&#xD;
+Using element matching Marked("numberZeroKeyboardBtn").&#xD;
+Tapping coordinates [ 1805, 346 ].&#xD;
+Using element matching Marked("numberOneKeyboardBtn").&#xD;
+Tapping coordinates [ 113, 346 ].&#xD;
+Using element matching Marked("numbersevenKeyboardBtn").&#xD;
+Tapping coordinates [ 1240, 346 ].&#xD;
+Using element matching Marked("numberThreeKeyboardBtn").&#xD;
+Tapping coordinates [ 488, 346 ].&#xD;
+Using element matching Marked("numberZeroKeyboardBtn").&#xD;
+Tapping coordinates [ 1805, 346 ].&#xD;
+Selected the Customer Name : '00BE101730'.&#xD;
+Using element matching Marked("okayKeyboardBtn").&#xD;
+Tapping coordinates [ 1671, 1010 ].&#xD;
+Using element matching Marked("customerNoValText").&#xD;
+Tapping coordinates [ 711, 220 ].&#xD;
+Selected the Customer Name&#xD;
+Using element matching Marked("oneRightBtn").&#xD;
+Tapping coordinates [ 1725, 603 ].&#xD;
+Selected the Select for an unplanned drop</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="DriverLogin_Test" storage="e:\year\2019\july\q8mobileautomation\q8mobileautomation\q8mobileautomation\bin\release\q8mobileautomation.dll" id="b0e87485-6d18-64bb-38f4-481810a6fe20">
+      <Execution id="0480e380-8acf-4647-a10f-46fbdc9fb44b" />
+      <TestMethod codeBase="E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\bin\Release\Q8MobileAutomation.dll" adapterTypeName="executor://nunit3testexecutor/" className="Q8MobileAutomation.Test.RunAutomation(Android)" name="DriverLogin_Test" />
+    </UnitTest>
+    <UnitTest name="ApplicationLogin_Test" storage="e:\year\2019\july\q8mobileautomation\q8mobileautomation\q8mobileautomation\bin\release\q8mobileautomation.dll" id="2bda2261-5f8f-8b66-4474-499156559590">
+      <Execution id="b0caeb08-11da-44db-bef2-3827c478a61a" />
+      <TestMethod codeBase="E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\bin\Release\Q8MobileAutomation.dll" adapterTypeName="executor://nunit3testexecutor/" className="Q8MobileAutomation.Test.RunAutomation(Android)" name="ApplicationLogin_Test" />
+    </UnitTest>
+    <UnitTest name="OpenApplication_Test" storage="e:\year\2019\july\q8mobileautomation\q8mobileautomation\q8mobileautomation\bin\release\q8mobileautomation.dll" id="23754c52-87c2-e62e-beb3-bb3e1a930646">
+      <Execution id="d7614351-001f-462a-a563-1171a38b1b8d" />
+      <TestMethod codeBase="E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\bin\Release\Q8MobileAutomation.dll" adapterTypeName="executor://nunit3testexecutor/" className="Q8MobileAutomation.Test.RunAutomation(Android)" name="OpenApplication_Test" />
+    </UnitTest>
+    <UnitTest name="CreateUnplannedShift_Test" storage="e:\year\2019\july\q8mobileautomation\q8mobileautomation\q8mobileautomation\bin\release\q8mobileautomation.dll" id="3c295f1a-1cc1-8cb1-b895-bf7d47d675cc">
+      <Execution id="213ae1f5-b22a-46bd-8460-3ccfb4584226" />
+      <TestMethod codeBase="E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\bin\Release\Q8MobileAutomation.dll" adapterTypeName="executor://nunit3testexecutor/" className="Q8MobileAutomation.Test.RunAutomation(Android)" name="CreateUnplannedShift_Test" />
+    </UnitTest>
+    <UnitTest name="ReplTest" storage="e:\year\2019\july\q8mobileautomation\q8mobileautomation\q8mobileautomation\bin\release\q8mobileautomation.dll" id="b858cb95-d41e-752c-a106-dfd8e07f7185">
+      <Execution id="0907ce65-89f6-4880-a908-a5f2f9b34ace" />
+      <TestMethod codeBase="E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\bin\Release\Q8MobileAutomation.dll" adapterTypeName="executor://nunit3testexecutor/" className="Q8MobileAutomation.Test.RunAutomation(Android)" name="ReplTest" />
+    </UnitTest>
+    <UnitTest name="Compartment_StockCheck_Test" storage="e:\year\2019\july\q8mobileautomation\q8mobileautomation\q8mobileautomation\bin\release\q8mobileautomation.dll" id="bf848e4f-f2bd-ce2a-fd78-a6d7d92dc36a">
+      <Execution id="99521251-7cd0-4008-bacb-56fe695870d2" />
+      <TestMethod codeBase="E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\bin\Release\Q8MobileAutomation.dll" adapterTypeName="executor://nunit3testexecutor/" className="Q8MobileAutomation.Test.RunAutomation(Android)" name="Compartment_StockCheck_Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="bf848e4f-f2bd-ce2a-fd78-a6d7d92dc36a" executionId="99521251-7cd0-4008-bacb-56fe695870d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b0e87485-6d18-64bb-38f4-481810a6fe20" executionId="0480e380-8acf-4647-a10f-46fbdc9fb44b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23754c52-87c2-e62e-beb3-bb3e1a930646" executionId="d7614351-001f-462a-a563-1171a38b1b8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2bda2261-5f8f-8b66-4474-499156559590" executionId="b0caeb08-11da-44db-bef2-3827c478a61a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b858cb95-d41e-752c-a106-dfd8e07f7185" executionId="0907ce65-89f6-4880-a908-a5f2f9b34ace" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c295f1a-1cc1-8cb1-b895-bf7d47d675cc" executionId="213ae1f5-b22a-46bd-8460-3ccfb4584226" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.13.0.0: Test execution started&#xD;
+Running all tests in E:\Year\2019\July\Q8MobileAutomation\Q8MobileAutomation\Q8MobileAutomation\bin\Release\Q8MobileAutomation.dll&#xD;
+   NUnit3TestExecutor converted 6 of 6 NUnit test cases&#xD;
+NUnit Adapter 3.13.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
